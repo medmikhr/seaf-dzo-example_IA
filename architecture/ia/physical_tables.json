@@ -4,9 +4,10 @@
       "title": "film",
       "description": "фильмы",
       "system": "flix.home_cinema.catalog",
-      "dbms": "postgresql",
+      "dbms": "hadoop",
       "database": "dvdrental",
       "schema_name": "public",
+      "cde_flag": true,
       "data_objects": "flix.content.film"
     },
     "language": {
@@ -16,6 +17,7 @@
       "dbms": "postgresql",
       "database": "dvdrental",
       "schema_name": "public",
+      "rmd_flag": true,
       "data_objects": "flix.content.language"
     },
     "category": {
@@ -25,6 +27,7 @@
       "dbms": "postgresql",
       "database": "dvdrental",
       "schema_name": "public",
+      "rmd_flag": true,
       "data_objects": "flix.content.category"
     },
     "actor": {
@@ -74,6 +77,7 @@
       "dbms": "postgresql",
       "database": "dvdrental",
       "schema_name": "public",
+      "rmd_flag": true,
       "data_objects": "flix.city"
     },
     "country": {
@@ -83,6 +87,7 @@
       "dbms": "postgresql",
       "database": "dvdrental",
       "schema_name": "public",
+      "rmd_flag": true,
       "data_objects": "flix.country"
     },
     "staff": {
@@ -102,6 +107,7 @@
       "database": "dvdrental",
       "schema_name": "public",
       "pdn_flag": true,
+      "cde_flag": true,
       "data_objects": "alfa.fl.customer"
     },
     "payment": {

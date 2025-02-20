@@ -1,0 +1,7 @@
+seaf.md.dwh.procedures:
+  p1:
+    title: p1_dds_addr_format
+    description: преобразование адресов
+    input_data: address, dadata
+    insert_table: city_addr
+

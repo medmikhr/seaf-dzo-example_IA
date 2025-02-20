@@ -1,0 +1,13 @@
+seaf.md.dwh.columns:
+    t1.a1:
+      title: film name
+      type: string
+      description: наименование фильма
+      constraints: max 180
+      pk_flag: false
+      fk_flag: false
+      physical_table: t1
+      pdn_flag: false
+      cde_flag: true
+
+ 

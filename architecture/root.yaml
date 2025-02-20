@@ -1,9 +1,10 @@
 imports:
-  - ta/root.yaml
+  # - ta/root.yaml
   - app/root.yaml
   - ba/root.yaml
   - ia/root.yaml
+  - metadata/root.yaml
   - tools/root.yaml
   - adr/root.yaml
-  - change/requirements.yaml
-  - change/standarts.yaml
+  # - change/requirements.yaml
+  # - change/standarts.yaml

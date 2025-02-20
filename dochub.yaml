@@ -11,12 +11,12 @@ $package:
     # Версия
     version: 1.2.10
     # Зависимости от других пакетов
-    dependencies:
-      seaf-dzo-core: ">=1.2.14"
-      hexagon: ">=1.1.0"
-      iaas: ">=1.2.2"
-      dochub: ">=3.9.0"
-      mm-discovery: ">=1.2.0"
+    # dependencies:
+    #   seaf-dzo-core: ">=1.2.14"
+    #   hexagon: ">=1.1.0"
+    #   iaas: ">=1.2.2"
+    #   dochub: ">=3.9.0"
+    #   mm-discovery: ">=1.2.0"
 
 docs:
   dochub.welcome:
@@ -29,7 +29,7 @@ imports:
   - _metamodel_/packages.yaml
 
   # Меню для пользователя для навигации
-  - architecture/interface/root.yaml
+  # - architecture/interface/root.yaml
 
   # Пример описания архитектуры
   - architecture/root.yaml
